@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card{
+    padding:20px; 
+    size: 5px;
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.card-group h1{
+    padding: 30px;
+    margin-left: 20px;
+}
+
+/* Wrapper */
+
+
+.card img{
+    transition: scale 1s;
+}
+
+.card:hover img{
+    scale: 105%;
+}
+
+.mx-auto card{
+    box-shadow: blue;
+}
+
+.color{
+    background-color: rgb(144, 190, 255);
+}
